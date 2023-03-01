@@ -3,7 +3,15 @@ body {
 
 }
 
+/** navbar **/
 
 #navbar-links{
     justify-content: flex-end;
+}
+
+
+/** container **/
+.container-fluid {
+    margin: 16px;
+    padding: 15px;
 }
