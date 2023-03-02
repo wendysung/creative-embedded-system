@@ -9,7 +9,7 @@ The goal of this collaborative project was to create an generative art installat
 
 For my specifc code, I took inspiration from our (original) installation date: Valentine's Day &#x1F496;
 
-### Detail
+### Details
 
 Materials and Softwares required:
 - One ESP32 TTGO T-display
@@ -29,6 +29,16 @@ Steps to recreate project:
 4. Under <b>Tools > Port</b>, make sure your are connected to the port that connects to your ESP32.
 
 5. Install <b>tft_eSPI</b> by <b>Bodmer</b> in Library Manager. 
+
+6. Under where the library is stored on your laptop (check sketchbook location under Preferences, probably under <b>Documents/Arduino/libraries/tft_eSPI</b>), make the following changes to the header file <b>User_Setup_Select.h</b>:
+    - Comment out the following line as so
+    ```
+    // #include <User_Setup.h>           // Default setup is root library folder
+    ```
+    - Uncomment the following line as so:
+    ```
+    #include <User_Setups/Setup25_TTGO_T_Display.h>    // Setup file for ESP32 and TTGO T-Display ST7789V SPI bus TFT
+    ```
 
 7. Code your generative art on Arduino, compile and run it on your ESP32. (Make sure the dimension is set for a 160 x 128 screen)
 
