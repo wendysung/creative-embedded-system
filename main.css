@@ -1,5 +1,8 @@
 body {
     font-family:sans-serif;
+    background-color: black;
+    font-family: monospace;
+    color: #24d800;
 }
 
 /** navbar **/
