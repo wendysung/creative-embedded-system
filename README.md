@@ -2,7 +2,7 @@
 
 ## Module 1 - Generative Art 
 
-<img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" width="200">
+<img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" width="300">
 
 ### Description
 The goal of this collaborative project was to create an generative art installation that plays with any text of our choices. The installation was initally intended to have all the ESP32 TTGO T-displays to be hung up in Barnard's CS department, however, due to technical difficulties with our batteries, it ended being on a wired board.
@@ -24,7 +24,7 @@ Steps to recreate project:
 
 2. Add ESP32 board to Arduino by going <b>Preferences</b> and adding the following link to <b>Additional Board Manager</b>: https://dl.espressif.com/dl/package_esp32_index.json
 
-3. Under <b>Tools > Board > esp32<b>, select <b>TTGO T1</b>
+3. Under <b>Tools > Board > esp32</b>, select <b>TTGO T1</b>
 
 4. Under <b>Tools > Port</b>, make sure your are connected to the port that connects to your ESP32.
 
