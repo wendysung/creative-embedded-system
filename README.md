@@ -17,7 +17,7 @@ Materials and Softwares required:
 - USB-C cord
 - Arduino
 
-<img src="images/ESP32_TTGO_T-display.jpeg" alt="Module 1 Installation" width="300">
+<img src="images/materials.jpeg" alt="Module 1 Installation" width="400">
 
 Steps to recreate project:
 1. Download Arduino and open the software.
