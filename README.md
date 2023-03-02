@@ -2,7 +2,7 @@
 
 ## Module 1 - Generative Art 
 
-![Module1 Installation](module1/images/module1_installation_1.jpeg)
+![Module1 Installation](images/module1_installation_1.jpeg)
 
 ### Description
 The goal of this collaborative project was to create an generative art installation that plays with any text of our choices. The installation was initally intended to have all the ESP32 TTGO T-displays to be hung up in Barnard's CS department, however, due to technical difficulties with our batteries, it ended being on a wired board.
@@ -17,7 +17,7 @@ Materials and Softwares required:
 - USB-C cord
 - Arduino
 
-![ESP32 TTGO T-display model](module1/images/ESP32_TTGO_T-display.jpeg)
+![ESP32 TTGO T-display model](images/ESP32_TTGO_T-display.jpeg)
 
 Steps:
 1. Download Arduino & set up the ESP32 library (see this link for tutorial)
