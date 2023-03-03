@@ -3,7 +3,7 @@
 ## Module 1 - Generative Art 
 
 <div style="display: inline-block; height=300;">
-    <img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" height="300">
+    <img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" height="400">
     <img src="images/installation1.gif" alt="Module 1 Installation" width="200" height="auto">
 </div>
 
