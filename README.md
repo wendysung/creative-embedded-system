@@ -4,7 +4,7 @@
 
 <div style="display: inline-block; height=300;">
     <img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" height="300">
-    <img src="images/installation1.gif" alt="Module 1 Installation" max-width="100" heigh="auto">
+    <img src="images/installation1.gif" alt="Module 1 Installation" width="50" heigh="auto">
 </div>
 
 
