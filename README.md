@@ -2,8 +2,12 @@
 
 ## Module 1 - Generative Art 
 
-<img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" width="300">
-<img src="images/installation1.gif" alt="Module 1 Installation" width="300">
+<div style="display: inline-block; height=300;">
+    <img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" height="355">
+    <img src="images/installation1.gif" alt="Module 1 Installation" width="200" height="auto">
+</div>
+
+
 
 ### Description
 The goal of this collaborative project was to create an generative art installation that plays with any text of our choices. The installation was initally intended to have all the ESP32 TTGO T-displays to be hung up in Barnard's CS department, however, due to technical difficulties with our batteries, it ended being on a wired board.
