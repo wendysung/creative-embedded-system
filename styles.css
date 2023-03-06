@@ -24,8 +24,9 @@ h3 {
 
 .left_text {
     max-width: 50%;
+    margin-right: 100px;
 }
 
 .images, .inline_container {
-    display: inline-block;
+    display: inline-flex;
 }
