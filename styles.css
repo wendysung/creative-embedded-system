@@ -17,3 +17,7 @@ body {
     margin: 16px;
     padding: 15px;
 }
+
+.images {
+    display: inline-block;
+}
