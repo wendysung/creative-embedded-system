@@ -4,6 +4,10 @@ body {
     color: #ff5be4;
 }
 
+h3 {
+    color: white;
+}
+
 /** navbar **/
 
 #navbar-links{
