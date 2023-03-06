@@ -18,6 +18,10 @@ body {
     padding: 15px;
 }
 
+.left_text {
+    max-width: 50%;
+}
+
 .images, .inline_container {
     display: inline-block;
 }
