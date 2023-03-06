@@ -49,5 +49,8 @@ Steps to recreate project:
 
 8. (Optional) Solder battery to ESP32 so it could run without an USB-C cord.
 
-Here is a youtube link for the setup demo: https://www.youtube.com/watch?v=adLUgmCJKnM
+### Blog Post & Video
 
+Blog Post: https://wendysung.github.io/creative-embedded-system/
+
+Youtube: https://www.youtube.com/watch?v=1Ghk-OtDypA
