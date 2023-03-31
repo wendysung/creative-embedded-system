@@ -8,12 +8,74 @@ h3 {
     color: white;
 }
 
-/** navbar **/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-#navbar-links{
+li {
+    list-style: none;
+}   
+
+
+a {
+    text-decoration: none;
+    
+}
+
+
+.btn {
+    background-color: #ff5be4;
+    border: none;
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+    padding: 80px;
+    font-size: 25px;
+}
+
+/** navbar **/
+.logo {
+    font-size: 30px;
+    color: white
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-links{
     justify-content: flex-end;
+}
+
+.navbar-links a{
     color: white;
 }
+
+/** modules button **/
+#module1 {
+    background-image: url('images/button1.jpeg');
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#module1:hover {
+    filter: grayscale(0%);
+}
+
+#module2 {
+    background-image: url('images/button2.jpeg');
+
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#module2:hover {
+    filter: grayscale(0%);
+}
+
+
 
 
 /** container **/
