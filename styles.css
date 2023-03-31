@@ -31,6 +31,7 @@ a {
     height: 200px;
     width: 300px;
     margin-right: 50px;
+    margin-bottom: 50px;
     padding: 80px;
     font-size: 25px;
 }
@@ -74,8 +75,6 @@ a {
 #module2:hover {
     filter: grayscale(0%);
 }
-
-
 
 
 /** container **/
