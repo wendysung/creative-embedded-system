@@ -12,6 +12,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 li {
@@ -86,6 +87,16 @@ a {
 .left_text {
     max-width: 50%;
     margin-right: 100px;
+}
+
+.right_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_text img {
+    margin-bottom: 20px;
 }
 
 .images, .inline_container {
