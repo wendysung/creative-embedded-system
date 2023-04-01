@@ -15,15 +15,20 @@ nav {
     margin-bottom: 30px;
 }
 
-li {
-    list-style: none;
-}   
+ol {
+    list-style: none; /* Remove default bullets */
+  }
 
 
 a {
     text-decoration: none;
     
 }
+
+span {
+    color: white;
+}
+
 
 
 .btn {
@@ -96,6 +101,10 @@ a {
 }
 
 .right_text img {
+    margin-bottom: 20px;
+}
+
+.right img {
     margin-bottom: 20px;
 }
 
