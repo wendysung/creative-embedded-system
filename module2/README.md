@@ -43,7 +43,7 @@ Using the data and turning it into a collage
 
 ### Enclosure Design
 <div style="display: inline-block; height=300;">
-    <img src="images/EnclosureDesign1.png" alt="EnclosureDesign1" height="355">
+    <img src="../images/EnclosureDesign1.png" alt="EnclosureDesign1" height="355">
 </div>
 
 
