@@ -38,6 +38,10 @@ Using the data and turning it into a collage
 
 ### Running the program:  
 1. Set up ESP32 and Joystick on a breadboard according to the diagram below and connected the ESP32 to your laptop.
+<img src="../images/joystick_setup.jpeg" alt="Joystick Setup">
+<img src="../images/pin_setup.jpeg" alt="Pin Setup">
+
+
 2. Open module2/joystick.ino in Arduino and run it on ESP32. Make sure the baud rate is set to match the one specified in the code.
 3. Open module2/CollageBuilder/CollageBuilder.pde in Processing to start the program. 
 
