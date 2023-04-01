@@ -67,9 +67,15 @@ I found a wooden box that would fit the breadboard perfectly if I place it diagn
 
 I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out rough size of the joystick circle and cut out circle for it to fit through. 
 
-Afterwards, I taped down the joystick and wires to the lid so that I could stablize them while I wrap the paper over it. 
+Afterwards, I taped down the joystick and wires to the lid so that I could stablize them while I wrap paper over it. 
 
-<img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="400">
+<div style="display: inline-block; height=500;">
+    <img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="400">
+    <img src="../images/enclosure_wrapping.png" alt="enclosure wrapping" height="400">  
+</div>
+
+
+
 
 
 ## Final Result 
