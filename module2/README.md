@@ -46,9 +46,9 @@ Using the data and turning it into a collage
 1. Set up ESP32 and Joystick on a breadboard 
 2. Connect ESP32 and Joystick's matching pins using wires according to the schematic below. 
 
-<div style="display: inline-block; height=500;">
-    <img src="../images/module2_Schematic.png" alt="Schematic" height="500">
-    <img src="../images/pin_setup.jpeg" alt="Pin Setup"  height="500">
+<div style="display: inline-block;">
+    <img src="../images/module2_Schematic.png" alt="Schematic" height="200">
+    <img src="../images/pin_setup.jpeg" alt="Pin Setup"  height="200">
 </div>
 
 
