@@ -49,3 +49,5 @@ Using the data and turning it into a collage
 
 
 ## Final Result 
+
+<img src="../images/LaptopDemo.jpeg" alt="LaptopDemo" height="355">
