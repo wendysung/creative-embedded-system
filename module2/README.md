@@ -53,7 +53,7 @@ Using the data and turning it into a collage
 ## Final Result 
 
 <div style="display: inline-block; height=300;">
-    <img src="../images/LaptopDemo.jpeg" alt="LaptopDemo" height="300">
+    <img src="../images/LaptopDemo.jpeg" alt="LaptopDemo" height="400">
     <img src="../images/collage1.png" alt="collage1" width="300" height="300">
     <img src="../images/collage2.png" alt="collage2" width="300" height="300">
 </div>
