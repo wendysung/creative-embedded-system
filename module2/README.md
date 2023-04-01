@@ -22,9 +22,9 @@ For my specifc project, I am creating an interactive device that allows users to
 - Processing
 
 ### Files required: 
-  ```
-    /module2/joystick.ino        
-  ```
+```
+/module2/joystick.ino        
+```
 Setting up Serial communication with ESP32 pins
 - Opens the serial port at a set baud rate for serial data transmission. 
 - Reads X,Y,Z data from the Joystick to Serial Monitor.
