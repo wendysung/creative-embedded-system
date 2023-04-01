@@ -38,7 +38,7 @@ Using the data and turning it into a collage
 
 ### Running the program:  
 1. Set up ESP32 and Joystick on a breadboard according to the diagram below and connected the ESP32 to your laptop.
-<img src="../images/joystick_setup.jpeg" alt="Joystick Setup">
+<img src="../images/joystick_setup.png" alt="Joystick Setup">
 <img src="../images/pin_setup.jpeg" alt="Pin Setup">
 
 
