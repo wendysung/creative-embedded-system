@@ -49,7 +49,7 @@ Using the data and turning it into a collage
     - If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. 
 
 <div style="display: inline-block;">
-    <img src="../images/module2_Schematic.png" alt="Schematic" height="400">
+        <img src="../images/module2_Schematic.png" alt="Schematic" height="400">
 </div>
 
 
