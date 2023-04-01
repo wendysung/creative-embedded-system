@@ -22,13 +22,17 @@ For my specifc project, I am creating an interactive device that allows users to
 - Processing
 
 ### Files required: 
-module2/joystick.ino
+  ```
+    /module2/joystick.ino        
+  ```
 Setting up Serial communication with ESP32 pins
 - Opens the serial port at a set baud rate for serial data transmission. 
 - Reads X,Y,Z data from the Joystick to Serial Monitor.
 - Prints data to the serial port as human-readable ASCII text.
 
-module2/CollageBuilder/CollageBuilder.pde
+  ```
+    /module2/CollageBuilder/CollageBuilder.pde
+  ```
 Using the data and turning it into a collage
 - Setup: create canvas, load images and background, and open Serial port for receiving data.
 - While data is available, read data and convert it into a image's location coordinates as it hovers.
