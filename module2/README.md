@@ -58,6 +58,7 @@ Using the data and turning it into a collage
 ### Enclosure Design
 <div style="display: inline-block; height=300;">
     <img src="../images/EnclosureDesign1.png" alt="EnclosureDesign1" height="355">
+    <img src="../images/EnclosureDesign3.png" alt="EnclosureDesign2" height="355">
 </div>
 I found a wooden box that would fit the breadboard perfectly if I place it diagnoally, which helps stablelize the breadboard. 
 <img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="400">
