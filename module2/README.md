@@ -3,11 +3,11 @@
 ## Project Description
 The goal of this project is to create an interactive device that would send data back to my laptop for visualization, sonfication, or any other media generation process. 
 
-## Artistic Vision 
+### Artistic Vision 
 
 For my specifc project, I am creating an interactive device that allows users to create their own digital collage. Through using a joystick, the user will go through a series of randomly ordered images to build their collage on a background. I was inspired by my childhood passion for making collages and vision boards, which often took days to finish and would always get very messy. With this digital collage builder, one no longer need to indesisively gather images, painfully cut through them, and be left with sticky fingers upon finishing gluing it all together. 
 
-## Reflection 
+### Reflection 
 
 ## Technical Documentation
 
