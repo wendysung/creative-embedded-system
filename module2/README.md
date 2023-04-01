@@ -60,12 +60,17 @@ Using the data and turning it into a collage
     <img src="../images/EnclosureDesign1.png" alt="EnclosureDesign1" height="355">
     <img src="../images/EnclosureDesign2.png" alt="EnclosureDesign2" height="355">
 </div>
-I found a wooden box that would fit the breadboard perfectly if I place it diagnoally, which helps stablelize the breadboard. 
-<img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="400">
+
+<div style="display: inline-block; height=300;">
+    <p>I found a wooden box that would fit the breadboard perfectly if I place it diagnoally, which helps stablelize the breadboard.<p>
+    <img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="400">
+</div>
+
 
 I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out rough size of the joystick circle and cut out circle for it to fit through. 
 
 Afterwards, I taped down the joystick and wires to the lid so that I could stablize them while I wrap the paper over it. 
+
 <img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="400">
 
 
