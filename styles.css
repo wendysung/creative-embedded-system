@@ -67,7 +67,7 @@ a {
 }
 
 #module2 {
-    background-image: url('images/button2.jpeg');
+    background-image: url('images/btn2.png');
 
     background-repeat: no-repeat;
     filter: grayscale(100%);

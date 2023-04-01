@@ -1,17 +1,51 @@
 # Module 2 - Interactive Art 
 
-## Description
-The goal of this project to create an interactive device with the provided hardware to send data back to my laptop for visualization, sonfication, or any other media generation process. 
+## Project Description
+The goal of this project is to create an interactive device that would send data back to my laptop for visualization, sonfication, or any other media generation process. 
 
-For my specifc project, I am creating an interactive device that allow users to create their own digital collage. Through using the joystick, the user will go through a series of randomly ordered images to form their collage.
+## Artistic Vision 
 
-### Details
+For my specifc project, I am creating an interactive device that allows users to create their own digital collage. Through using a joystick, the user will go through a series of randomly ordered images to build their collage on a background. I was inspired by my childhood passion for making collages and vision boards, which often took days to finish and would always get very messy. With this digital collage builder, one no longer need to indesisively gather images, painfully cut through them, and be left with sticky fingers upon finishing gluing it all together. 
 
-Materials and Softwares required:
+## Reflection 
+
+## Technical Documentation
+
+### Materials and Softwares required:
 - One ESP32 TTGO T-display
 - Joystick 
+- Breadboard
 - Button (optional)
 - USB-C cord
+- wires
 - Arduino
 - Processing
 
+### Files required: 
+module2/joystick.ino
+Setting up Serial communication with ESP32 pins
+- Opens the serial port at a set baud rate for serial data transmission. 
+- Reads X,Y,Z data from the Joystick to Serial Monitor.
+- Prints data to the serial port as human-readable ASCII text.
+
+module2/CollageBuilder/CollageBuilder.pde
+Using the data and turning it into a collage
+- Setup: create canvas, load images and background, and open Serial port for receiving data.
+- While data is available, read data and convert it into a image's location coordinates as it hovers.
+- Set location of an image when Z value changes.
+- Iterate through all images to form a collage.
+
+
+### Running the program:  
+1. Set up ESP32 and Joystick on a breadboard according to the diagram below and connected the ESP32 to your laptop.
+2. Open module2/joystick.ino in Arduino and run it on ESP32. Make sure the baud rate is set to match the one specified in the code.
+3. Open module2/CollageBuilder/CollageBuilder.pde in Processing to start the program. 
+
+### Enclosure Design
+<div style="display: inline-block; height=300;">
+    <img src="images/EnclosureDesign1.png" alt="breadboard setup" height="355">
+</div>
+
+
+
+## Final Result 
