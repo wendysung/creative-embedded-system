@@ -7,8 +7,6 @@ The goal of this project is to create an interactive device that would send data
 
 For my specifc project, I am creating an interactive device that allows users to create their own digital collage. Through using a joystick, the user will go through a series of randomly ordered images to build their collage on a background. I was inspired by my childhood passion for making collages and vision boards, which often took days to finish and would always get very messy. With this digital collage builder, one no longer need to indesisively gather images, painfully cut through them, and be left with sticky fingers upon finishing gluing it all together. 
 
-### Reflection 
-
 ## Technical Documentation
 
 ### Materials and Softwares required:
@@ -53,8 +51,6 @@ Using the data and turning it into a collage
 </div>
 
 
-
-
 ### Running the program:  
 2. Open module2/joystick.ino in Arduino and run it on ESP32. Make sure the baud rate is set to match the one specified in the code.
 3. Open module2/CollageBuilder/CollageBuilder.pde in Processing to start the program. 
@@ -63,6 +59,14 @@ Using the data and turning it into a collage
 <div style="display: inline-block; height=300;">
     <img src="../images/EnclosureDesign1.png" alt="EnclosureDesign1" height="355">
 </div>
+I found a wooden box that would fit the breadboard perfectly if I place it diagnoally, which helps stablelize the breadboard. 
+<img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="400">
+
+I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out rough size of the joystick circle and cut out circle for it to fit through. 
+
+Afterwards, I taped down the joystick and wires to the lid so that I could stablize them while I wrap the paper over it. 
+<img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="400">
+
 
 ## Final Result 
 
