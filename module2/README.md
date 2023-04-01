@@ -41,13 +41,17 @@ Using the data and turning it into a collage
 
 
 ### Setting up the interactive device:  
-<img src="../images/module2_Schematic.png" alt="Schematic">
 
 
-1. Set up ESP32 and Joystick on a breadboard and connect the matching pins using wires according to the diagram below. 
+1. Set up ESP32 and Joystick on a breadboard 
+2. Connect ESP32 and Joystick's matching pins using wires according to the schematic below. 
 
-<img src="../images/joystick_setup.png" alt="Joystick Setup">
-<img src="../images/pin_setup.jpeg" alt="Pin Setup">
+<div style="display: inline-block; height=300;">
+    <img src="../images/module2_Schematic.png" alt="Schematic">
+    <img src="../images/pin_setup.jpeg" alt="Pin Setup">
+</div>
+
+
 
 
 ### Running the program:  
