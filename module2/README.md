@@ -29,7 +29,6 @@ Setting up Serial communication with ESP32 pins
 - Opens the serial port at a set baud rate for serial data transmission. 
 - Reads X,Y,Z data from the Joystick to Serial Monitor.
 - Prints data to the serial port as human-readable ASCII text.
-
   ```
     /module2/CollageBuilder/CollageBuilder.pde
   ```
