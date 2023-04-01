@@ -3,8 +3,8 @@
 ## Module 1 - Generative Art 
 
 <div style="display: inline-block; height=300;">
-    <img src="images/module1_installation_1.jpeg" alt="Module 1 Installation" height="355">
-    <img src="images/installation1.gif" alt="Module 1 Installation" width="200" height="auto">
+    <img src="../images/module1_installation_1.jpeg" alt="Module 1 Installation" height="355">
+    <img src="../images/installation1.gif" alt="Module 1 Installation" width="200" height="auto">
 </div>
 
 
@@ -22,7 +22,7 @@ Materials and Softwares required:
 - USB-C cord
 - Arduino
 
-<img src="images/materials.jpeg" alt="Module 1 Installation" width="400">
+<img src="../images/materials.jpeg" alt="Module 1 Installation" width="400">
 
 Steps to recreate project:
 1. Download Arduino and open the software.
