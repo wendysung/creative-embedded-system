@@ -45,7 +45,8 @@ Using the data and turning it into a collage
 
 1. Set up ESP32 and Joystick on a breadboard 
 2. Connect ESP32 and Joystick's matching pins using wires according to the schematic below. 
-    - Test on Arduino's serial monitor to see if the values changing accurately as you toggle the joystick. If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. 
+    - Test on Arduino's serial monitor to see if the values changing accurately as you toggle the joystick. 
+    - If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. 
 
 <div style="display: inline-block;">
     <img src="../images/module2_Schematic.png" alt="Schematic" height="400">
