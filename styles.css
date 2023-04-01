@@ -102,3 +102,9 @@ a {
 .images, .inline_container {
     display: inline-flex;
 }
+
+.subtitle {
+    color: white;
+    text-decoration: underline;
+
+}
