@@ -43,6 +43,7 @@ Using the data and turning it into a collage
 
 1. Set up ESP32 and Joystick on a breadboard 
 2. Connect ESP32 and Joystick's matching pins using wires according to the schematic below. 
+    - SW pin on the Joystick is the Z value for button push. It should change from 1 -> 0 when pushed. 
     - Test on Arduino's serial monitor to see if the values are accurately changing as you toggle the joystick. 
     - If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. 
 
