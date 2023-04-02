@@ -49,6 +49,8 @@ Using the data and turning it into a collage
 
 <div style="display: inline-block;">
         <img src="../images/module2_Schematic.png" alt="Schematic" height="400">
+        <img src="../images/Joystick_diagram.png" alt="Joystick Diagram" height="400">
+
 </div>
 
 
