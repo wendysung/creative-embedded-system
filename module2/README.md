@@ -19,7 +19,7 @@ For my specific project, I am creating an interactive device that allows users t
 - Arduino
 - Processing
 
-<img src="../images/joystick_diagram.png" alt="Joystick Diagram" height="400">
+<img src="../images/joystick_diagram.png" alt="joystick Diagram" height="400">
 
 ### Files required: 
 ```
