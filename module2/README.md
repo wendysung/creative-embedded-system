@@ -19,6 +19,8 @@ For my specific project, I am creating an interactive device that allows users t
 - Arduino
 - Processing
 
+<img src="../images/Joystick_diagram.png" alt="Joystick Diagram" height="400">
+
 ### Files required: 
 ```
 /module2/joystick.ino        
@@ -49,8 +51,6 @@ Using the data and turning it into a collage
 
 <div style="display: inline-block;">
         <img src="../images/module2_Schematic.png" alt="Schematic" height="400">
-        <img src="../images/Joystick_diagram.png" alt="Joystick Diagram" height="400">
-
 </div>
 
 
