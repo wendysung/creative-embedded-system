@@ -5,7 +5,7 @@ The goal of this project is to create an interactive device that would send data
 
 ### Artistic Vision 
 
-For my specifc project, I am creating an interactive device that allows users to create their own digital collage. Through using a joystick, the user will go through a series of randomly ordered images to build their collage on a background. I was inspired by my childhood passion for making collages and vision boards, which often took days to finish and would always get very messy. With this digital collage builder, one no longer need to indesisively gather images, painfully cut through them, and be left with sticky fingers upon finishing gluing it all together. 
+For my specific project, I am creating an interactive device that allows users to create digital collages. Through using a joystick, the user will go through a series of randomly ordered images to build their collage on a background. I was inspired by my childhood passion for making collages and vision boards, which often took days to finish and would always get very messy. With this digital collage builder, one no longer needs to indesisively gather images, painfully cut through them, and be left with sticky fingers upon finishing gluing it all together. 
 
 ## Technical Documentation
 
@@ -32,9 +32,9 @@ Setting up Serial communication with ESP32 pins
 /module2/CollageBuilder/CollageBuilder.pde
 ```
 Using the data and turning it into a collage
-- Setup: create canvas, load images and background, and open Serial port for receiving data.
-- While data is available, read data and convert it into a image's location coordinates as it hovers.
-- Set location of an image when Z value changes.
+- Setup: create a canvas, load images and background, and open Serial port for receiving data.
+- While data is available, read data and convert it into an image's location coordinates as it hovers.
+- Set the location of an image when the Z value changes.
 - Iterate through all images to form a collage.
 
 
@@ -43,7 +43,7 @@ Using the data and turning it into a collage
 
 1. Set up ESP32 and Joystick on a breadboard 
 2. Connect ESP32 and Joystick's matching pins using wires according to the schematic below. 
-    - Test on Arduino's serial monitor to see if the values changing accurately as you toggle the joystick. 
+    - Test on Arduino's serial monitor to see if the values are accurately changing as you toggle the joystick. 
     - If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. 
 
 <div style="display: inline-block;">
@@ -61,21 +61,18 @@ Using the data and turning it into a collage
     <img src="../images/EnclosureDesign2.png" alt="EnclosureDesign2" height="355">
 </div>
 
-I found a wooden box that would fit the breadboard perfectly if I place it diagnoally, which helps stablelize the breadboard.
+I found a wooden box that would fit the breadboard perfectly if I place it diagonally, which helps stabilize the breadboard.
 
 <img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="400">
 
-I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out rough size of the joystick circle and cut out circle for it to fit through. 
+I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out the rough size of the joystick circle and cut out a circle for it to fit through. 
 
-Afterwards, I taped down the joystick and wires to the lid so that I could stablize them while I wrap paper over it. 
+Afterward, I taped down the joystick and wires to the lid so that I could stabilize them while I wrap paper over it. 
 
 <div style="display: inline-block; height=500;">
     <img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="400">
     <img src="../images/enclosure_wrapping.png" alt="enclosure wrapping" height="400">  
 </div>
-
-
-
 
 
 ## Final Result 
