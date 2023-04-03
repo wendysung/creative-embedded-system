@@ -51,6 +51,6 @@ Steps to recreate project:
 
 ### Blog Post & Video
 
-Blog Post: https://wendysung.github.io/creative-embedded-system/
+Blog Post: https://wendysung.github.io/creative-embedded-system/module1/module1.html
 
 Youtube: https://www.youtube.com/watch?v=1Ghk-OtDypA

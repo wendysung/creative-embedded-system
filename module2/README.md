@@ -85,3 +85,10 @@ Afterward, I taped down the joystick and wires to the lid so that I could stabil
     <img src="../images/collage2.png" alt="collage2" width="300" height="300">
     <img src="../images/collage3.png" alt="collage3" width="300" height="300">
 </div>
+
+## Blog Post & Video
+
+Blog Post: https://wendysung.github.io/creative-embedded-system/module2/module2.html
+
+Youtube: https://youtu.be/xbElPfbKn1U
+
