@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>  
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Static CSS -->
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+<body>
+    <!-- navbar-expand-lg navbar-light bg-light -->
+    <div class="container-fluid">   
+        <nav class="navbar">
+            <a class="logo"  href="../index.html">Wendy's Creative Embedded System</a>
+        </nav>
+
+        <h1>Module 3: Meditate to Your Beat</h1>
+        <div class="basic-overview">
+            <br>
+            <h3>Basic Overview</h3>
+            <div class="inline_container">
+                <div class="left_text">
+                    <p>
+                        For this project, I created a visualisation that moves to the rate of your heart beat.
+
+                    <br>
+                    <br>
+                    <div class="Materials">
+                        <h3>Materials</h3>
+                        <ul>
+                            <li>1 ESP32 TTGO T-display</li>
+                            <li>1 Pulse Sensor</li>
+                            <li>1 USB-C cord</li>
+                            <li>Arduino</li>
+                            <li>Touch Designer</li>
+                            <li>3D printer</li>
+                            <li>PLA 3D filament</li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+                <div class="right_text">
+                    <img src="../images/heart_model.jpeg" alt="heartModel" height="400">
+                </div>
+            </div>
+        </div>
+        <br>
+       
+
+        <div class="Process">
+            <h3>Technical Documentation</h3>
+            <div>
+                <div class="subtitle">LED for heart model</div>
+                <br>
+                <div style="display: flex;">
+                    <div class="left" style="margin-right: 10px; max-width: 50%;">
+                        <p>1. Set up ESP32 and LED on a breadboard according to the schematic diagram below </p>
+
+                        <p>2. Upload code on Arduino.
+                            <ul>
+                                <li>Test on Arduino's serial monitor to see if the values changing accurately as you toggle the joystick. </li>
+                                <li>If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. </li>
+                            </ul>
+                        </p>     
+                    </div>
+                    <div class="right">
+                        <img src="../images/schematic_diagram_LED.jpeg alt="Schematic" height="300">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="subtitle">Enclosure Building</div>
+                <br>
+                <div style="display: flex;">
+                    <div class="left" style="margin-right: 10px; max-width: 50%;">
+                        <p>I found a wooden box that would fit the breadboard perfectly if I place it diagonally, which helps stabilize the breadboard.</p>
+    
+                        <p>I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out the rough size of the joystick circle and cut out a circle for it to fit through. 
+                        <br><br>
+                        Afterward, I taped down the joystick and wires to the lid so that I could stabilize them while I wrap paper over it.</p>
+            
+                    </div>
+                    <div class="right">
+                        <img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="250">
+                        <img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="250">
+                        <img src="../images/enclosure_wrapping.png" alt="enclosure wrapping" height="250">  
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="subtitle">Software Building</div>
+                <br>
+                <div style="display: flex;">
+                    <div class="left" style="margin-right: 10px; max-width: 50%;">
+                        
+                        <p><a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/joystick.ino">joystick.ino</a> - Setting up Serial communication with ESP32 pins</p>    
+                        
+                        <p>
+                            <ul>
+                                <li>Open the serial port at a set baud rate for serial data transmission. </li>
+                                <li>Reads X,Y,Z data from the Joystick to Serial Monitor.</li>
+                                <li>Prints data to the serial port as human-readable ASCII text.</li>
+                            </ul>
+                        </p>
+
+                        <p><a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/CollageBuilder/CollageBuilder.pde">CollageBuilder.pde</a> - Using the data and turning it into a collage
+                        </p>    
+                        
+                        <p>
+                            <ul>
+                                <li>Setup: create a canvas, load images and background, and open Serial port for receiving data.</li>
+                                <li>While data is available, read data and convert it into a image's location coordinates as it hovers.</li>
+                                <li>Set the location of an image when the Z value changes.</li>
+                                <li>Iterate through all images to form a collage.</li>
+                            </ul>
+                        </p>
+
+                    </div>
+                    <div class="right">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="subtitle">Running the program</div>
+                <br>
+                <div style="display: flex;">
+                    <div class="left" style="margin-right: 10px; max-width: 50%;">
+                        
+                        <p>1. Open <a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/joystick.ino">joystick.ino</a> in Arduino and run it on ESP32. Make sure the baud rate is set to match the one specified in the code.
+                        </p>
+
+                        <p>
+                            2. Open <a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/CollageBuilder/CollageBuilder.pde">CollageBuilder.pde</a> in Processing to start the program. 
+                        </p>
+                    </div>
+                    <div class="right">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
+        <div class="reflection">
+            <h3>Reflection</h3>
+            <p>I really enjoyed constructing an interactive device and enclosure for this project. Building hardwares something I have never experienced so it was really educational and empowering
+                to learn to read hardware schematics and how it could interact with my creative code. A key challenge for me was figuring out why the Z values from the joystick was not responding, 
+                The class discussion chat was helpful in getting suggestions on debugging the solution and in the end it took trial and error to figure out which pins was not compatible.</p>
+        </div>
+        <div class="Installation Video">
+            <h3>Video</h3>
+            <iframe width="560" height="315" src="https://youtu.be/xbElPfbKn1U" title="Interactive Art: Collage Builder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
