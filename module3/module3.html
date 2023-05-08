@@ -32,8 +32,10 @@
             <div class="inline_container">
                 <div class="left_text">
                     <p>
-                        For this project, I created a visualisation that moves to the rate of your heart beat.
-
+                        My project is an interactive visualization for heart beat meditation. A person will sit in from of the projected screen and place 
+                        their finger to a pulse sensor that is attached to a heart model. As they sit and meditate, the heart model will glow in red to their heart 
+                        beat. This heart beat will also be projected onto the screen and interact with the visualization I have created. This This visualization 
+                        will help user see how their heart beat and breathing is adapting throughout their meditation.
                     <br>
                     <br>
                     <div class="Materials">
@@ -97,17 +99,30 @@
                 <div style="display: flex;">
                     <div class="left" style="margin-right: 10px; max-width: 50%;">
 
-                        <p>1. Set up ESP32, resistor and red LED on a breadboard according to the schematic diagram below </p>
+                        <p>1. Set up ESP32, resistor and red LED on a breadboard according to the 1st schematic diagram. </p>
+
+                        <p>2. Set up pulse sensor according to the 2nd schematic diagram.
+                            <ul>
+                                <li>Purple wire - Pulse Sensor Analogue Pin </li>
+                                <li>Red wire - VCC Pin </li>
+                                <li>Black wire - GND Pin</li>
+                            </ul>
+                        </p>
+
+                        <p>3. Install <span>PulseSensor Playground</span> by going to <span>Sketch > Include Library > Manage Library...</span></p>
 
                         <p>2. Install code
                             <ul>
-                                <li>Test on Arduino's serial monitor to see if the values changing accurately as you toggle the joystick. </li>
-                                <li>If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. </li>
+                                <li>Test on Arduino's serial monitor to see if the values are showing up and if the LED is blinking. You should give it a minute for the heart beat to be adjusted</li>
+                                <li>If the LED is not blinking, change the threshold value. The threshold value can take values from 0-4095.</li>
+                                <li>If no value is showing up on the serial monitor, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. </li>
                             </ul>
                         </p>     
                     </div>
                     <div class="right">
                         <img src="../images/module3_schematic_diagram_LED.jpeg" alt="Schematic" height="300">
+                        <img src="../images/pulse_sensor_schematic.png" alt="Schematic" height="300">
+                        <img src="../images/pulse-sensor-wiring.jpeg" alt="wiring" height="300">
                     </div>
                 </div>
             </div>
@@ -123,11 +138,13 @@
                         </p>
                         <br>
                         <p>
-                        To print the 3D models, I dowloaded STL files from thingiverse and uploaded them to <b>UltiMaker Cura</b> for configuration. I changed to the <br>
+                        To print the 3D models, I dowloaded STL files from thingiverse and uploaded them to <span>UltiMaker Cura</span> for configuration. I changed to the <br>
                         setting to 0.4 nozzle for a thinner look so that the LED light will shine through more. 
                         </p>
                     </div>
                     <div class="right">
+                        <img src="../images/3D printer.jpeg" alt="heart 3D model" height="250">
+
                         <img src="../images/heart_3Dmodel.jpeg" alt="heart 3D model" height="250">
                     </div>
                 </div>
@@ -139,48 +156,62 @@
                 <div style="display: flex;">
                     <div class="left" style="margin-right: 10px; max-width: 50%;">
                         
-                        <p><a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/joystick.ino">joystick.ino</a> - Setting up Serial communication with ESP32 pins</p>    
+                        <p><a href="">PulseRate.ino</a> - Setting up pulse rate sensor and LED pins with ESP32 for serial communication</p>    
                         
                         <p>
                             <ul>
                                 <li>Open the serial port at a set baud rate for serial data transmission. </li>
-                                <li>Reads X,Y,Z data from the Joystick to Serial Monitor.</li>
+                                <li>Reads data from the pulse sensor to Serial Monitor.</li>
+                                <li>LED blink with each heart beat.</li>
                                 <li>Prints data to the serial port as human-readable ASCII text.</li>
                             </ul>
                         </p>
 
-                        <p><a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/CollageBuilder/CollageBuilder.pde">CollageBuilder.pde</a> - Using the data and turning it into a collage
+                        <p><a href="">heart.toe</a> - Touch Designer file for creating visualizations based off heart beat
                         </p>    
                         
                         <p>
                             <ul>
-                                <li>Setup: create a canvas, load images and background, and open Serial port for receiving data.</li>
-                                <li>While data is available, read data and convert it into a image's location coordinates as it hovers.</li>
-                                <li>Set the location of an image when the Z value changes.</li>
-                                <li>Iterate through all images to form a collage.</li>
+                                <li>Import Heart Emoji to set it up against a noise background.</li>
+                                <li>Noise background is dispalced by another noise background, manipulated by feedback loops of its edges.</li>
+                                <li>Heart Emoji exapnds to the heart beat.</li>
+                                <li>"Null 6" for final outcome</li>
                             </ul>
                         </p>
 
                     </div>
                     <div class="right">
+                        <img src="../images/module3_touchdesigner.jpeg" alt="touch designer chart" height="300">
                     </div>
                 </div>
             </div>
             <br>
             <div>
-                <div class="subtitle">Running the program</div>
+                <div class="subtitle">Running the Program with Touch Designer</div>
                 <br>
                 <div style="display: flex;">
                     <div class="left" style="margin-right: 10px; max-width: 50%;">
                         
-                        <p>1. Open <a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/joystick.ino">PulseRate.ino</a> in Arduino and run it on ESP32. Make sure the baud rate is set to 115200.
+                        <p>1. Open <a href="">PulseRate.ino</a> in Arduino and run it on ESP32. Make sure the baud rate is set to 115200.
                         </p>
 
                         <p>
-                            2. Open <a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/CollageBuilder/CollageBuilder.pde">CollageBuilder.pde</a> in Processing to start the program. 
+                            2. Open <a href="">heart.toe</a> in Touch Designer. 
                         </p>
+
+                        <p>
+                            3. Select correct port under 'Serial 1'. It will read data from the ESP32.
+                        </p>
+
+                        <p>
+                            4. Select 'Null 6' to view final visualization.
+                        </p>
+
                     </div>
                     <div class="right">
+                        <img src="../images/serial.jpeg" alt="touch designer chart" height="150">
+                        <img src="../images/null6.jpeg" alt="null6" height="150">
+
                     </div>
                 </div>
             </div>
