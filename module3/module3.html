@@ -40,18 +40,23 @@
                         <h3>Materials</h3>
                         <ul>
                             <li>1 ESP32 TTGO T-display</li>
-                            <li>1 Pulse Sensor</li>
                             <li>1 USB-C cord</li>
                             <li>Arduino</li>
                             <li>Touch Designer</li>
+                            <li>150ohm resistor</li>
+                            <li>2v red LED</li>
+                            <li>1 Pulse Sensor</li>
+                            <li><a href="https://github.com/WorldFamousElectronics/PulseSensorPlayground">Pulse Sensor Playground Library</a></li>
                             <li>3D printer</li>
                             <li>PLA 3D filament</li>
+                            <li>UltiMaker Cura</li>
+                            
                         </ul>
                         <br>
                     </div>
                 </div>
                 <div class="right_text">
-                    <img src="../images/heart_model.jpeg" alt="heartModel" height="400">
+                    <img src="../images/module3_heart.JPG" alt="heartModel" height="400">
                 </div>
             </div>
         </div>
@@ -61,13 +66,40 @@
         <div class="Process">
             <h3>Technical Documentation</h3>
             <div>
-                <div class="subtitle">LED for heart model</div>
+                <div class="subtitle">Calculating Resistor Required</div>
                 <br>
                 <div style="display: flex;">
                     <div class="left" style="margin-right: 10px; max-width: 50%;">
-                        <p>1. Set up ESP32 and LED on a breadboard according to the schematic diagram below </p>
 
-                        <p>2. Upload code on Arduino.
+                        <p>An LED in a circuit without a limiting resistor can easily exceed its maximum current and burn out. o calculate the resistor 
+                            <br>values needed to protect the LED, use Ohm’s Law V = I x R.
+                            <br>
+                            To calculate the resistor for the red LED, we need to take into account of its Forward Voltage and Forward Current into the Ohm's Law.
+                            <ul>
+                                <li>The forward voltage (V_F) is the voltage drop across the LED, and is thus subtracted from the supply voltage (V_S).</li>
+                                <li>The forward voltage (V_F)is typically in the range of 1.8-2V for Red LED.</li> 
+                                <li>The maximum forward current (I_F) is typically is 20mA for Red LED.</li> 
+                            </ul>
+                            For our project, the red LED has a V_F of 2V and I_F of 20mA, powered by 5V. Hence, we will be using a 150ohm resistor.
+                        </p>
+
+                    </div>
+                    <div class="right">
+                        <img src="../images/resistor_equation.jpeg" alt="resistor equation" height="100">
+                        <img src="../images/resistor_for_RedLED.jpeg" alt="resistor for red LED" height="100">
+                        <img src="../images/150ohm_resistor.jpeg" alt="resistor for red LED" height="190">
+
+                    </div>
+                </div>
+                <br>
+                <div class="subtitle">Setting up LED and Pulse Sensor</div>
+                <br>
+                <div style="display: flex;">
+                    <div class="left" style="margin-right: 10px; max-width: 50%;">
+
+                        <p>1. Set up ESP32, resistor and red LED on a breadboard according to the schematic diagram below </p>
+
+                        <p>2. Install code
                             <ul>
                                 <li>Test on Arduino's serial monitor to see if the values changing accurately as you toggle the joystick. </li>
                                 <li>If not, it might be an issue with the pins or breadboard. You have to move around and switch pins to find ones that work. </li>
@@ -75,27 +107,28 @@
                         </p>     
                     </div>
                     <div class="right">
-                        <img src="../images/schematic_diagram_LED.jpeg" alt="Schematic" height="300">
+                        <img src="../images/module3_schematic_diagram_LED.jpeg" alt="Schematic" height="300">
                     </div>
                 </div>
             </div>
             <br>
             <div>
-                <div class="subtitle">Enclosure Building</div>
+                <div class="subtitle">Enclosure Building - 3D heart model</div>
                 <br>
                 <div style="display: flex;">
                     <div class="left" style="margin-right: 10px; max-width: 50%;">
-                        <p>I found a wooden box that would fit the breadboard perfectly if I place it diagonally, which helps stabilize the breadboard.</p>
-    
-                        <p>I knew I wanted to joystick to be outside the box, but have the Joystick pins and wires covered. Wrapping the wrapping paper I got around the Joystick was the hard part. To do this, I measured out the rough size of the joystick circle and cut out a circle for it to fit through. 
-                        <br><br>
-                        Afterward, I taped down the joystick and wires to the lid so that I could stabilize them while I wrap paper over it.</p>
-            
+                        <p>I found a heart model on thingiverse that has a platform so i could hide components below. I decided to print the heart in translucent PLA so 
+                            <br> that the red LED could shine through when it blinks. For the platform, I decided to print it with red PLA so that it matches the 
+                            <br> red flash.
+                        </p>
+                        <br>
+                        <p>
+                        To print the 3D models, I dowloaded STL files from thingiverse and uploaded them to <b>UltiMaker Cura</b> for configuration. I changed to the <br>
+                        setting to 0.4 nozzle for a thinner look so that the LED light will shine through more. 
+                        </p>
                     </div>
                     <div class="right">
-                        <img src="../images/breadboard_enclosure.png" alt="breadboard enclosure design" height="250">
-                        <img src="../images/joystick_enclosure.png" alt="joystick enclosure design" height="250">
-                        <img src="../images/enclosure_wrapping.png" alt="enclosure wrapping" height="250">  
+                        <img src="../images/heart_3Dmodel.jpeg" alt="heart 3D model" height="250">
                     </div>
                 </div>
             </div>
@@ -140,7 +173,7 @@
                 <div style="display: flex;">
                     <div class="left" style="margin-right: 10px; max-width: 50%;">
                         
-                        <p>1. Open <a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/joystick.ino">joystick.ino</a> in Arduino and run it on ESP32. Make sure the baud rate is set to match the one specified in the code.
+                        <p>1. Open <a href="https://github.com/wendysung/creative-embedded-system/blob/main/module2/joystick.ino">PulseRate.ino</a> in Arduino and run it on ESP32. Make sure the baud rate is set to 115200.
                         </p>
 
                         <p>
