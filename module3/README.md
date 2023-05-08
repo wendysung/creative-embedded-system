@@ -8,8 +8,11 @@ The goal of this project is to create an interactive visualization that would us
 After seeing a James Turrell's skyscape, I was inspired by him to create a space that encourages people to sit and observe the nature and space around them as well themsleves. To encourage people to look inward and be at peace, I was inspired by the Heart Rhythm Meditation method that coordinates our 
 breath with our heartbeats to generate a powerful internal rhythm that creates heart coherence which is a state of balance with the head, heart, and body.
 
-<img src="../images/JamesTurrell1.jpeg" alt="Turrell 1" height="200">
-<img src="../images/JamesTurrell2.jpeg" alt="Turrell 2" height="200">
+
+<div style="display: inline-block; height=300;">
+    <img src="../images/JamesTurrell1.jpeg" alt="Turrell 1" height="200">
+    <img src="../images/JamesTurrell2.jpeg" alt="Turrell 2" height="200">
+</div>
 
 Hence, I ultimately want to create an interactive space that allow us to visualize our heart beat as we meditate, to hopefully promote our inner peace without the distraction of the crazy world around us.  
 
@@ -52,10 +55,8 @@ Heart Emoji Object File for Touch Designer
 /module3/heart.toe
 ```
 Touch Designer visualization
-- Setup: create a canvas, load images and background, and open Serial port for receiving data.
-- While data is available, read data and convert it into an image's location coordinates as it hovers.
-- Set the location of an image when the Z value changes.
-- Iterate through all images to form a collage.
+- Setup: import heart emoji object file, select correct port and baud rate
+- Press play to see the visualization adapt to heart beat 
 
 
 ### Setting up the Heart Model:  
@@ -74,7 +75,7 @@ Touch Designer visualization
 ### Running the program:  
 1. Open module3/PulseRate.ino in Arduino and run it on ESP32. Make sure the baud rate is set to match the one specified in the code.
 2. Open module3/heart.toe in Touch Designer
-    - Import module3/heartEmoji.obj in the 'fileIn' box 
+    - Import module3/heartEmoji.obj in the 'filein' box 
     - Set up correct port and baud rate in 'serial1' box 
     - Press 'Play' and view final visualization in 'Null6' box.
 
@@ -95,6 +96,6 @@ translucent PLA and the bottom with Red PLA to match the Red LED that will be pl
 
 ## Blog Post & Video
 
-Blog Post: 
+Blog Post: https://wendysung.github.io/creative-embedded-system/module3/module3.html
 
 Youtube: 
