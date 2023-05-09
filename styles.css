@@ -89,6 +89,17 @@ span {
     filter: grayscale(0%);
 }
 
+#module3 {
+    background-image: url('images/button3.jpeg');
+
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#module3:hover {
+    filter: grayscale(0%);
+}
+
 
 /** container **/
 .container-fluid {
