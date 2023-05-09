@@ -92,10 +92,12 @@ translucent PLA and the bottom with Red PLA to match the Red LED that will be pl
 
 <div style="display: inline-block; height=500;">
     <img src="../images/module3_heart.JPG" alt="heartModel" height="400">
+    <img src="../images/heart_off.JPG" alt="heartModel_off" height="400">
+
 </div>
 
 ## Blog Post & Video
 
 Blog Post: https://wendysung.github.io/creative-embedded-system/module3/module3.html
 
-Youtube: 
+Youtube: https://www.youtube.com/watch?v=I4cObmevYd8
