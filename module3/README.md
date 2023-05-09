@@ -93,6 +93,7 @@ translucent PLA and the bottom with Red PLA to match the Red LED that will be pl
 <div style="display: inline-block; height=500;">
     <img src="../images/module3_heart.JPG" alt="heartModel" height="400">
     <img src="../images/heart_off.JPG" alt="heartModel_off" height="400">
+    <img src="../images/heart_blink.gif" alt="Module 1 Installation" width="200" height="auto">
 
 </div>
 
